@@ -1,0 +1,86 @@
+:root {
+    /* Tride color */
+    --primary: #b21d22;
+    --secondary: #d96a97;
+    --accent: #2996fd;
+
+
+    /* default color */
+    --default-white: #ffffff;
+    --default-black: #000000;
+    --default-success: #28a745;
+    --default-danger: #dc3545;
+    --default-warning: #ffc107;
+    --default-info: #17a2b8;
+    --default-light: #f8f9fa;
+    --default-dark: #343a40;
+
+    /* theme color */
+    --heading: #1d1d1f;
+    --primary-text: #505052;
+    --secondary-text: #98989e;
+    --light: #fdfdfd;
+    --dark: #18191a;
+    --bg: #e4e6ea;
+}
+
+.themeMode {
+    --heading: #f5f5f7;
+    --primary-text: #c7c7c9;
+    --secondary-text: #7f7f83;
+    --light: #18191a;
+    --dark: #ffffff;
+    --bg: #242526ea;
+}
+
+body {
+    background-color: var(--light);
+}
+
+.default-light {
+    color: var(--default-light);
+}
+
+.default-dark {
+    color: var(--default-black);
+}
+
+.heading {
+    color: var(--heading);
+}
+
+.accent {
+    color: var(--acent);
+}
+
+.primary {
+    color: var(--primary);
+}
+
+.secondary {
+    color: var(--secondary);
+}
+
+.success {
+    color: var();
+}
+
+.primary-text {
+    color: var(--primary-text);
+}
+
+.secondary-text {
+    color: var(--secondary-text);
+}
+
+.bg {
+    background: var(--bg);
+}
+
+.light {
+    color: var(--light);
+}
+
+.dark {
+    color: var(--dark);
+}
